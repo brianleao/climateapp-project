@@ -17,7 +17,7 @@ export default function ClimaTempo() {
   } | null>(null);
   
   const [buscou, setBuscou] = useState(false);
-  const API_KEY = "2ed462cc476dfc45c940273eb41af760";
+  const API_KEY = "SUA API KEY AQUI";
 
 
   

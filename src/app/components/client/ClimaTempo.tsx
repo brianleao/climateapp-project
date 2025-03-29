@@ -17,7 +17,7 @@ export default function ClimaTempo() {
   } | null>(null);
   
   const [buscou, setBuscou] = useState(false);
-  const API_KEY = "SUA API KEY AQUI";
+  const API_KEY = "2ed462cc476dfc45c940273eb41af760";
 
 
   
@@ -39,10 +39,10 @@ export default function ClimaTempo() {
   return (
     <div className="flex w-120 min-h-auto bg-sky-600 rounded-3xl flex-col items-center p-2 shadow-2xl shadow-yellow-400">
       <div className="flex items-center justify-center bg-white w-full mt-4 rounded-3xl pl-2 pr-2 pt-1 pb-1 gap-2">
-        <h1 className="text-3xl text-black font-bold">ClimaTempo App</h1>
+        <h1 className="text-3xl text-black font-bold">Aplicativo de Tempo</h1>
         <IoPartlySunny className="text-3xl text-amber-300"/>
       </div>
-      <h2 className="text-white mt-4 font-extralight text-2xl mb-4">Faça a sua busca:</h2>
+      <h2 className="text-white mt-4 font-extralight text-2xl mb-4">Digite a cidade:</h2>
       <div className="flex items-center gap-2">
         <input 
         type="text" 
@@ -65,7 +65,7 @@ export default function ClimaTempo() {
           </div>
 
               {/* <span>{(dadosClima?.main?.temp-273.15).toFixed(1)} °C</span> */}
-              <span>{dadosClima?.main?.temp} °C</span>
+              <span>{dadosClima?.main?.temp.toFixed(0)} °C</span>
 
         </div>
         

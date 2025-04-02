@@ -1,3 +1,19 @@
+<h1>ClimateApp</h1>
+<span>Desenvolvido por: Brian Leão</span>
+<p>Desenvolvi um aplicativo de tempo que dada a entrada de o nome de uma cidade, são retornados os dados dela que são os seguintes:</p>
+<ul>
+  <li>Nome da cidade</li>
+  <li>Temperatura (celsius)</li>
+  <li>Umidade</li>
+  <li>Vento</li>
+</ul>
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

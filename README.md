@@ -23,7 +23,7 @@ Este projeto consome a API do OpenWeather para obter os dados climáticos. Para 
 
 1. Crie uma conta no OpenWeather em [https://openweathermap.org/](https://openweathermap.org/).
 2. Gere uma chave de API.
-3. No código, substitua `<SUA_API_KEY>` pela chave gerada ao realizar as requisições para a API.
+3. No código, insira sua API_KEY do OpenWeatherMap na constante API_KEY = "SUA API DO CLIMA TEMPO"; pela chave gerada ao realizar as requisições para a API.
 
 ## ▶️ Como Usar
 

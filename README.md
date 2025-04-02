@@ -1,52 +1,62 @@
-<h1>ClimateApp</h1>
-<span>Desenvolvido por: Brian Leão</span>
-<p>Desenvolvi um aplicativo de tempo que dada a entrada de o nome de uma cidade, são retornados os dados dela que são os seguintes:</p>
-<ul>
-  <li>Nome da cidade</li>
-  <li>Temperatura (celsius)</li>
-  <li>Umidade</li>
-  <li>Vento</li>
-</ul>
+# 🌦 Aplicativo de Tempo
 
+Um aplicativo simples que retorna informações climáticas de uma cidade informada pelo usuário. Ele exibe a temperatura, umidade, velocidade do vento e o nome da cidade consultada.
 
+## 🚀 Funcionalidades
 
+* Consulta o clima de qualquer cidade do mundo.
+* Retorna os seguintes dados:
+  * Temperatura
+  * Umidade
+  * Velocidade do vento
+  * Nome da cidade
 
+## 🛠 Tecnologias Utilizadas
 
+* Next.js
+* Axios
+* OpenWeather API
 
+## 📦 Instalação
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
+   cd nome-do-projeto
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Configure a chave da API no arquivo de ambiente:
+   * Crie uma conta no OpenWeather em [https://openweathermap.org/](https://openweathermap.org/).
+   * Gere uma chave de API.
+   * Substitua `<SUA_API_KEY>` no arquivo `.env.local`:
+     ```bash
+     NEXT_PUBLIC_OPENWEATHER_API_KEY=<SUA_API_KEY>
+     ```
 
-## Getting Started
+## ▶️ Como Usar
 
-First, run the development server:
+1. Execute o aplicativo em modo de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+2. Acesse `http://localhost:3000` no navegador.
+3. Insira o nome da cidade para obter os dados climáticos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📜 Licença
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto está licenciado sob a [Licença escolhida] - veja o arquivo `LICENSE` para mais detalhes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🙌 Contribuições
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+Feito com ❤️ por [Seu Nome] 😊
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -30,7 +30,7 @@ Este projeto consome a API do OpenWeather para obter os dados climáticos. Para 
 1. Execute o aplicativo em modo de desenvolvimento:
    ```bash
    npm run dev
-   **OU**
+   OU
    yarn run dev
    ```
 2. Acesse `http://localhost:3000` no navegador.
